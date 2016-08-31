@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 *Initializing a repository will copy the .git file into that directory making that an official Git one allowing
 the content inside to be sync'ed with/to Git. The file contains configuration data. If it wasn't so then it wouldn't
  be able to sync.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+*The staging area is an intermediate 'place' between your working directory and the git repository in the cloud and can only exist
+after a local directory has been git initiated. Holds all the changes that you haven't committed yet and can be reversed before you do that.
