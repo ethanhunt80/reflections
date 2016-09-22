@@ -16,3 +16,7 @@ Having branches organized is awesome as we are able to experiment and not be afr
 
  How do the diagrams help you visualize the branch structure?
  by ordering the commits in colorized order and also by displaying them in the cronological order
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When you merge one branch into the other means you copy the changes into the current branch. It's good to represent
+the way it is because you can see exactly how the branch was before the merging.
