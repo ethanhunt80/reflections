@@ -6,3 +6,13 @@ the content inside to be sync'ed with/to Git. The file contains configuration da
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 *The staging area is an intermediate 'place' between your working directory and the git repository in the cloud and can only exist
 after a local directory has been git initiated. Holds all the changes that you haven't committed yet and can be reversed before you do that.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Having branches organized is awesome as we are able to experiment and not be afraid to break things up and
+ not be able to revert. We can always search for past commits in different branches to understand what was being done.
+ Branches are just like the name says, they enable us to experiment without breaking the main branch.
+
+ How do the diagrams help you visualize the branch structure?
+ by ordering the commits in colorized order and also by displaying them in the cronological order
