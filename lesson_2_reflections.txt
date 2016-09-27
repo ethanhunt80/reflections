@@ -20,3 +20,9 @@ Having branches organized is awesome as we are able to experiment and not be afr
  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 When you merge one branch into the other means you copy the changes into the current branch. It's good to represent
 the way it is because you can see exactly how the branch was before the merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging gives us the assurance that we are merging correctly and nothing in the file conflicts with changes
+made by anyone else. By doing a manual merge we have to resolve conflicts that are raised when we try to merge
+files that have changes in the same piece of code. That is safer to do it manually as I see what I need to resolve.
+That also fosters communication within the team as I may need to talk to others to resolve these conflicts.
