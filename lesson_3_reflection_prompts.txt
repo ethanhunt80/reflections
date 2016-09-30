@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 As I see almost always when you need to have things stored in a trustworthy manner, somewhere you can trust you won't lose all the changes/creation you made.
 Also when you want to share the work you've done with your peers.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Automatic pulls could overwrite my local repository and I might lose changes that are valuable to me and that I don't wish to have either pushed or pulled (deleted in this case).
