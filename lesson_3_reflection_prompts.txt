@@ -2,3 +2,16 @@ When would you want to use a remote repository rather than keeping all your work
 
 As I see almost always when you need to have things stored in a trustworthy manner, somewhere you can trust you won't lose all the changes/creation you made.
 Also when you want to share the work you've done with your peers.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+- 'Forkses' happen only in the GitHub context, it's like a clone but in GitHub's own infrastructure in the cloud.
+- Clones are the local repository copies that we can make from repositories that are in the cloud (in this case GitHub
+specifically)
+- Branches are what the name say, branches (or changes) from the root that we can make without affecting it.
+It's good for experimentation without the fear of breaking the main functionality.
+
+I'd use a Fork to only copy the project that I want to, but I'm not sure I'd continue to make changes to the code
+in the cloud environment as it may not be very productive, but I can change my mind about that if I notice there were
+no major differences (which I doubt).
+Clones are good to have the code you just forked into your local machine so that you can manipulate it freely and
+make your own changes/experimentation using branches for example.
