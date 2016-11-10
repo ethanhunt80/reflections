@@ -22,3 +22,16 @@ in the cloud environment as it may not be very productive, but I can change my m
 no major differences (which I doubt).
 Clones are good to have the code you just forked into your local machine so that you can manipulate it freely and
 make your own changes/experimentation using branches for example.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+To work with the most up to date code and have possible changes from others that may be working in the same code/project.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Probably I'd use another form of folder interaction. It's harder as we don't know whether there's someone editing anything or not.
+It's not possible to revert changes and there's no easy way to control edition/addition.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Ohh almost always as the master branch is 'sacred' and should only be touched when there's 100% certainty that the changes being added
+won't affect what is already in place. So, overall I mostly see benefits in working with local branches as they allow us to try.
+The only downside of remote branches is the process to keep them up to date with the master and its changes (imagine if we have tens of
+developers submitting changes to the master - that could be a challenge).
